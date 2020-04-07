@@ -1,0 +1,86 @@
+body{
+    background-color: #ADD8E6;
+          
+   
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 800px;
+    width: 28em;
+    margin: auto;
+    margin-top: 3em;
+    border-radius: 20px 20px 20px 0px;
+    
+}
+    
+  
+  
+
+#p_element{
+     height: 4em;
+     width: 26em;
+     border: 0px;
+     border-radius: 5px;
+     background-color: rgb(239, 246, 247);
+     padding-left: 1em;
+     margin-top: 0.5em;
+     
+     
+    
+ }
+
+.details{
+    margin-left: 3em;
+    font-size: 0.9rem;
+    
+ }
+ 
+
+img{
+    height: 13%;
+    width: 13%;
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    color: rgb(12, 12, 119);
+    margin-bottom: 0px;
+    padding-top: 1em;
+    
+   
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 0.01px;
+
+}
+
+.submit_button{
+    text-align: center;
+    margin-top: 1em;
+
+}
+button{
+    border-radius: 10px 10px 10px 0px;
+    height: 4em;
+    width: 26em;
+    background-color: rgb(12, 12, 119);
+    color: white;
+    border: 0px;
+}
+
+.new_user{
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
