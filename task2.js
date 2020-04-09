@@ -1,6 +1,11 @@
+//Title
+
 let heading = "Task 2"
+
 console.log(heading)
-            
+
+//Array of Objects            
+
 let dataArray =[
   {principal: 2500, time: 1.8},
   {principal: 1000, time: 5},
@@ -8,9 +13,12 @@ let dataArray =[
   {principal: 2000, time: 3}
 ]
 
+//Interest Calculator function
+
 var interestCalculator = dataArray.map(pp=>{
     
     let rate;
+ //Conditioners   
     
     if(pp.principal >= 2500 && pp.time >1 && pp.time < 3){
         rate = 3;
@@ -25,12 +33,20 @@ var interestCalculator = dataArray.map(pp=>{
         rate = 1;
 
     }
-let interest = (pp.principal*pp.time*rate/100);
+
+    //Declaring Interest Calculation formular. 
+    
+    let interest = (pp.principal*pp.time*rate/100);
+    
+    //Function Parameters
    
-let interestData = {principal: pp.principal, time: pp.time, rate, interest};
-return interestData;
+    let interestData = {principal: pp.principal, time: pp.time, rate, interest};
+    return interestData;
+    
 
 });
+
+//Calling function
 console.log(interestCalculator);
 
 
