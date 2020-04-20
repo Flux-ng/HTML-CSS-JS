@@ -28,6 +28,6 @@ function divisibilty_check(number){
       //console.log(output);
      return output;
 }
-//Calling function with 100 as arguamnet and 80 as a random number of choice
+//Calling function with 100 as argument and 80 as a random number of choice. 
 divisibilty_check(100);
 divisibilty_check(80);
